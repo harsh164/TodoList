@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+1. The Application and Functionality
+Provide an overview of the application’s purpose, core features, and how it works.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview:
+The Task Manager is a web application that helps users keep track of their tasks. Users can:
 
-## Available Scripts
+Add new tasks with titles and due dates.
+Mark tasks as complete or incomplete.
+Delete tasks.
+View tasks with different priority levels (e.g., Low, Medium, High).
+The application uses confetti as a fun visual effect when a task is marked as completed.
+Features:
+Task Creation: Add new tasks with titles, due dates, and priorities.
+Task Completion: Mark tasks as completed with a simple click. Completed tasks are visually marked with a line-through effect.
+Task Deletion: Remove tasks from the list.
+Priority System: Tasks have different priority levels (Low, Medium, High), represented with emojis (🔰, ⚠️, 🔥).
+Confetti Effect: When a task is marked as completed, a confetti animation is triggered across the page to celebrate the task completion.
+2. The Setup and Launch Process
+Explain how to set up the project on a local machine and get it running.
 
-In the project directory, you can run:
+Prerequisites:
+Node.js (Ensure Node.js is installed on your system)
+npm (Node Package Manager, usually installed with Node.js)
+Setup Instructions:
+Clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone <repository-url>
+cd <repository-folder>
+Install Dependencies: Run the following command to install required dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+Start the Application: To start the application in development mode, run:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+The application will run on http://localhost:3000 (or another port if 3000 is occupied).
 
-### `npm test`
+Build the Application (Optional): If you want to create a production build of the application, use:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+npm run build
+Accessing the Application: After starting the server, open your web browser and go to http://localhost:3000 to see the app in action.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2024-11-15 114532](https://github.com/user-attachments/assets/ecfb7b55-3624-494c-973b-54cd1806fd04)
+![Screenshot 2024-11-15 114614](https://github.com/user-attachments/assets/ffcc8ca8-a6d2-4df4-98e2-f7f2e2242293)
